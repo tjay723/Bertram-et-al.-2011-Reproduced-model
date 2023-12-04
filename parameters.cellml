@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<model name="Parameters" xmlns="http://www.cellml.org/cellml/1.1#" xmlns:cellml="http://www.cellml.org/cellml/1.1#">
+    <component name="parameters_global"/>
+    <component name="parameters">
+        <variable initial_value="2275" name="P_a" public_interface="out" units="dyn_per_cm2"/>
+        <variable initial_value="2375" name="P_b" public_interface="out" units="dyn_per_cm2"/>
+        <variable initial_value="0.5" name="t_01_Vessel_1" public_interface="out" units="second"/>
+        <variable initial_value="50" name="P_d_01_Vessel_1" public_interface="out" units="dyn_per_cm2"/>
+        <variable initial_value="0.025" name="D_d_Vessel_1" public_interface="out" units="cm"/>
+        <variable initial_value="1" name="t_01_Vessel_2" public_interface="out" units="second"/>
+        <variable initial_value="75" name="P_d_01_Vessel_2" public_interface="out" units="dyn_per_cm2"/>
+        <variable initial_value="0.022" name="D_d_Vessel_2" public_interface="out" units="cm"/>
+        <variable initial_value="1.5" name="t_01_Vessel_3" public_interface="out" units="second"/>
+        <variable initial_value="100" name="P_d_01_Vessel_3" public_interface="out" units="dyn_per_cm2"/>
+        <variable initial_value="0.019" name="D_d_Vessel_3" public_interface="out" units="cm"/>
+        <variable initial_value="2" name="t_01_Vessel_4" public_interface="out" units="second"/>
+        <variable initial_value="125" name="P_d_01_Vessel_4" public_interface="out" units="dyn_per_cm2"/>
+        <variable initial_value="0.016" name="D_d_Vessel_4" public_interface="out" units="cm"/>
+    </component>
+</model>
